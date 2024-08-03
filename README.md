@@ -20,3 +20,8 @@ This repository contains the code and models for our paper **"From Generalist to
 To install the required packages, run:
 ```bash
 pip install -r requirements.txt
+```
+
+## Running the Scripts
+
+Each script in the RQ1 and RQ2 directories is designed to be run on a computer with an Nvidia A100 (80GB) GPU. This hardware is required to build the models as described in our paper.
