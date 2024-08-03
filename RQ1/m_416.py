@@ -26,9 +26,9 @@ from transformers import (
 )
 
 model_checkpoint = "deepseek-ai/deepseek-coder-1.3b-instruct"
-shortname="ds"
+shortname="m_416"
 cwe="416"
-datadir="../RQ3"
+datadir="dataset/RQ1"
 
 train_df = pd.read_json(f"{datadir}/train_{cwe}.json")
 val_df = pd.read_json(f"{datadir}/test_{cwe}.json")

@@ -26,11 +26,11 @@ from transformers import (
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 model_checkpoint = "deepseek-ai/deepseek-coder-1.3b-instruct"
-shortname = "ds5_1"
+shortname = "m_multiclass"
 
-train_df = pd.read_json(f"dataset/train_rq3_1.json")
-val_df = pd.read_json(f"dataset/test_rq3_1.json")
-all_df = pd.read_json(f"dataset/all_rq3_1.json")
+train_df = pd.read_json(f"dataset/train_rq2.json")
+val_df = pd.read_json(f"dataset/test_rq2.json")
+all_df = pd.read_json(f"dataset/all_rq2.json")
 
 train_df = train_df.drop(['label', 'year', 'source','hash', 'length_category'], axis=1)
 val_df = val_df.drop(['label', 'year', 'source','hash', 'length_category'], axis=1)

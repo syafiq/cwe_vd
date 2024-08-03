@@ -26,11 +26,11 @@ from transformers import (
 )
 
 model_checkpoint = "deepseek-ai/deepseek-coder-1.3b-instruct"
-shortname="ds-cg-5_1"
+shortname="m_all"
 
-datadir = "../RQ3/dataset"
-train_df = pd.read_json(f"{datadir}/train_rq3_1.json")
-val_df = pd.read_json(f"{datadir}/test_rq3_1.json")
+datadir = "dataset"
+train_df = pd.read_json(f"{datadir}/train_rq1.json")
+val_df = pd.read_json(f"{datadir}/test_rq1.json")
 train_df = train_df.drop(['year','cwe','source','hash','length_category'], axis=1)
 val_df = val_df.drop(['year','cwe','source','hash','length_category'], axis=1)
 train_df = train_df.reset_index(drop=True)
