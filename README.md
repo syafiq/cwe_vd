@@ -1,7 +1,7 @@
 # CWE-Specific Vulnerability Detection
 
 ## Introduction
-This repository contains the code and models for our paper **"From Generalist to Specialist: Exploring CWE-Specific Vulnerability Detection"**. The goal of this research is to improve vulnerability detection by leveraging CWE-specific classifiers to address the heterogeneity of vulnerability types.
+This repository contains the code and models for our paper **"From Generalist to Specialist: Exploring CWE-Specific Vulnerability Detection"**.
 
 ## Repository Structure
 - `data/`: Can be accessed here : https://drive.google.com/drive/folders/1olK4RwMA4xSmXY8rkkL4_ZlafEb_cBGi?usp=sharing
