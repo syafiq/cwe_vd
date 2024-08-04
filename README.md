@@ -5,7 +5,7 @@ This repository contains the code and models for our paper **"From Generalist to
 
 ## Repository Structure
 - data: Can be accessed here: https://drive.google.com/drive/folders/1olK4RwMA4xSmXY8rkkL4_ZlafEb_cBGi?usp=sharing
-- finetuned models: Can be accessed here: https://lunduniversityo365-my.sharepoint.com/:f:/g/personal/sy7821at_lu_se/EqgiqtOb6MtGoFyIwPWsdbwBSoncB9erOf7lonbuEawqmw?e=cd1DfK
+- finetuned models: Can be accessed here: https://lunduniversityo365-my.sharepoint.com/:f:/g/personal/sy7821at_lu_se/EqgiqtOb6MtGoFyIwPWsdbwBSoncB9erOf7lonbuEawqmw?e=myLqIm
 - `RQ1/`: Scripts for building m_all and m_CWE in RQ1.
 - `RQ2/`: Scripts for building m_binary and m_multiclass in RQ2.
 
