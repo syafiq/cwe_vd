@@ -4,7 +4,8 @@
 This repository contains the code and models for our paper **"From Generalist to Specialist: Exploring CWE-Specific Vulnerability Detection"**.
 
 ## Repository Structure
-- data: Can be accessed here : https://drive.google.com/drive/folders/1olK4RwMA4xSmXY8rkkL4_ZlafEb_cBGi?usp=sharing
+- data: Can be accessed here: https://drive.google.com/drive/folders/1olK4RwMA4xSmXY8rkkL4_ZlafEb_cBGi?usp=sharing
+- finetuned models: Can be accessed here: https://lu.box.com/s/r84lieu71j1w93g6s9gywaqregczy27g
 - `RQ1/`: Scripts for building m_all and m_CWE in RQ1.
 - `RQ2/`: Scripts for building m_binary and m_multiclass in RQ2.
 
